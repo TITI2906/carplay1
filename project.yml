@@ -1,0 +1,18 @@
+name: CustomCarPlay
+options:
+  bundleIdPrefix: com.custom
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  CustomCarPlay:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+    info:
+      path: Sources/Info.plist
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.custom.carplayapp
+      CODE_SIGN_IDENTITY: ""
+      CODE_SIGNING_REQUIRED: NO
+      CODE_SIGNING_ALLOWED: NO
